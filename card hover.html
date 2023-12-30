@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Year Greeting Card</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-image:url(card4.jpg) ;
+    }
+
+    .card {
+      position: relative;
+      width: 500px;
+      height: 250px;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out, background-image 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      background-image: url(card4.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      background-image: url(card6.jpg);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-content {
+      padding: 20px;
+      text-align: center;
+      color: #fff; 
+    }
+
+    h1, p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+    <div class="greeting-container">
+        <h1>🎉 Happy New Year 🎉</h1>
+        
+        <div class="card">
+          <div class="card-content">
+            
+          </div>
+        </div>
+      </div>
+</body>
+</html>
+
+
+
+
+
